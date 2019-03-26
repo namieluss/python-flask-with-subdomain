@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="pt-4">
+        <a href="/">Home</a><br/>
+        <hr/>
+        <h1>{{ user | title }}'s Profile</h1>
+        <hr/>
+        <a href="/logout">Logout</a>
+    </div>
+{% endblock %}
